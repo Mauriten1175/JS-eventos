@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+.containerCards{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.carrito{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cards{
+    display: inline-block;
+    padding: 20px;
+    background-color: sandybrown;
+    border: 3px solid gray;
+}
+.images{
+    width: 300px;
+    height: 300px;
+}
+h3{
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.colorprice{
+    color: rgb(26, 122, 2);
+}
+
+.btnCarrito{
+    display: block;
+    margin-top: 10px;
+}
